@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exploração Espacial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Space+Mono&display=swap">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="images/alien-icon.png" id="logo" alt="Ícone com o rosto de um alien">
+        Exploração Espacial
+      </h1>
+      <nav id="menu-principal">
+        <ul>
+          <li><a href="#philae">Sobre a Philae</a></li>
+          <li><a href="#aliens">Sobre Aliens</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="philae" class="aba-conteudo">
+        <!-- Atividade 1: fazer o código JavaScript da galeria -->
+        <h1>Sobre a Philae</h1>
+        <p>
+          Philae é uma sonda robótica pousadora da Agência Espacial Europeia
+          que integra a sonda espacial Rosetta, construída para fazer o
+          primeiro pouso controlado no núcleo de um cometa do Sistema Solar,
+          o 67P/Churyumov-Gerasimenko.
+        </p>
+        <div id="galeria">
+          <img id="slide" src="http://fegemo.github.io/cefet-front-end/images/01-philae-parts.jpg">
+          <button id="anterior" class="controle">Anterior</button>
+          <button id="proximo" class="controle">Próximo</button>
+        </div>
+      </article>
+
+      <article id="aliens" class="aba-conteudo ativa">
+        <!-- Atividade 2: fazer o código JavaScript da retração/expansão
+                  dos parágrafos -->
+        <h1>Sobre Aliens</h1>
+        <h2>De onde eles vêm</h2>
+        <p>
+          <button class="botao-expandir-retrair">+</button>
+          Aliens são seres pouco conhecidos pela raça humana ainda. Mesmo
+          depois de diversos anos de estudos e diversos encontros nós ainda
+          sabemos muito pouco. Algo que temos certeza é que
+          eles vêm de outras galáxias e planetas que até então eram
+          desconhecidos na nossa própria galáxia. Há vestigios e estudos que
+          dizem que alguns tipos de aliens vêm até mesmo de diferentes tempos,
+          sendo eles viajantes cronológicas (uma coisa meio teoria dos
+          <a href="https://pt.wikipedia.org/wiki/Reptilianos">reptilianos</a>).
+          Estes textos científicos extremamente confiáveis foram gentilmente 
+          elaborados pela aluna <strong>Stella Maris</strong> (INF-1A de 2021).
+        </p>
+        <h2>O que eles querem</h2>
+        <p>
+          <button class="botao-expandir-retrair">+</button>
+          Outra coisa que não sabemos são as intenções desses seres.
+          Alguns estão nos observando constatemente, alguns fazem
+          estudos, outros fazem trocas, porém temos a certeza que
+          tem alguns por aí que nos atacariam e poderiam trazer o
+          caos mundial, porém ainda não há registro de ataques
+          alienígenas. Os que fazem trocas são os mais amigáveis e já
+          estabelecemos acordos de trocas, proteção e de amizade. Atualmente
+          convivemos de forma bem pacífica com esse grupo. Os observadores,
+          não sabemos muito sobre eles, geralmente são os mesmos que nos
+          tem estudado, porém nunca levaram nenhum humano, apenas plantas
+          e alguns animais. Esses também não nos causam maléficios,
+          apenas temos uma relação de observação e de estudos.
+        </p>
+        <h2>Para onde eles vão</h2>
+        <p>
+          <button class="botao-expandir-retrair">+</button>
+          Conhecemos bem apenas uma das 50 espécies já encontradas e temos
+          registros de suas atividades espaciais. O restante são completamente
+          estranhos pra nós, apesar de não sermos tanto pra eles. Atualmente,
+          os que tem estado por aqui apenas nos mostram que viagens espaciais
+          são possíveis, porém não temos equipamentos suficientes para isso e
+          para monitoramento de atividades extraterrestres.
+        </p>
+      </article>
+    </main>
+
+    <script src="navegacao.js"></script>
+    <script src="atividade1.js"></script>
+    <script src="atividade2.js"></script>
+  </body>
+</html>
